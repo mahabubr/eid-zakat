@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Patua One', cursive;
+}
+
+section {
+    margin-top: 100px;
+}
+
+header {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.11)), url(./images/head.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+
+header h1 {
+    color: white;
+    font-size: 55px;
+}
+
+header p {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-top: 15px;
+}
+button {
+    background-color: #EF233C;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 28px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.main-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-one {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.main-section img {
+    width: 90%;
+    margin-left: 50px;
+}
+.main-section h1 {
+    font-size: 45px;
+}
+.main-section p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #707070;
+}
+.main-text {
+    width: 50%;
+}
+.main-img {
+    margin-right: 50px;
+}
+.table-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.table-content h1 {
+    font-size: 45px;
+}
+.table-content p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #707070;
+}
+.table-box {
+    margin-top: 50px;
+    display: flex;
+    width: 50%;
+    background-color: #FEF4F5;
+    padding: 50px;
+    margin: 8px;
+    border-radius: 10px;
+    text-align: left;
+}
+.table {
+    display: flex;
+}
+.table-box-text {
+    margin-left: 15px;
+}
+.table-box-text span {
+    font-size: 15px;
+    color: #707070;
+}
+.image-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-content img {
+    margin: 10px;
+    width: 30%;
+}
+.card {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card h1 {
+    font-size: 45px;
+}
+.card p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #707070;
+}
+.card-content {
+    margin-top: 50px;
+    display: flex;
+    text-align: left;
+}
+.card-elements {
+    border: 1px solid #707070;
+    border-radius: 10px;
+    margin: 20px;
+}
+.card-text {
+    padding: 30px;
+}
+.card-text h3 {
+    font-size: 20px;
+}
+.card-text p {
+    font-size: 15px;
+    color: #707070;
+}
+.card-text span {
+    font-size: 20px;
+    color: #EF233C;
+    border-bottom: 2px solid #EF233C;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #0B0D17;
+    padding: 100px;
+    text-align: center;
+    justify-content: center;
+}
+footer h1 {
+    color: #EF233C;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer p {
+    color: #707070;
+    font-size: 18px;
+    padding-top: 15px;
+}
